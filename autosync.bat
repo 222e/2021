@@ -6,7 +6,7 @@ cd /d %~dp0
 git add . 
  git commit -m "%date:~0,10%,%time:~0,8%" 
 ::  git commit -m "%commitMessage%" 
-git push origin master
+git push origin master -f
 @echo Done,
 
 SET daoTime=5
